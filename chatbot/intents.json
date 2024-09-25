@@ -1,0 +1,281 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Howdy", "Greetings","Hlo"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you today?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Have a nice day!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"]
+      },
+      {
+        "tag": "power_saving_tips",
+        "patterns": ["How can I save power?", "Give me a power saving tip", "How to reduce electricity usage?", "Ways to save electricity"],
+        "responses": [
+          "Turn off lights when not in use to save electricity.",
+          "Use energy-efficient appliances to reduce power consumption.",
+          "Unplug chargers and electronics when not in use to avoid phantom loads.",
+          "Set your thermostat a few degrees lower in winter and higher in summer to save energy.",
+          "Use LED bulbs instead of incandescent bulbs to reduce electricity usage.",
+          "Run dishwashers and washing machines with full loads to maximize efficiency.",
+          "Use a programmable thermostat to optimize heating and cooling schedules.",
+          "Seal windows and doors to prevent drafts and improve insulation."
+        ]
+      },
+      {
+        "tag": "bulb_recommendation",
+        "patterns": ["Bulb recommendation ","Which bulb to choose","Suggest me a bulb to reduce power consumption", "Best bulb for saving energy", "Which bulb should I use to save electricity?"],
+        "responses": [
+          "LED bulbs are the most energy-efficient option available.",
+          "Consider using CFL bulbs for a balance of efficiency and cost.",
+          "Smart bulbs can help you automate lighting and reduce waste."
+        ]
+      },
+      {
+        "tag": "efficient_ac_use",
+        "patterns": ["AC tips","How to use AC efficiently?", "Tips for efficient AC use", "How can I save power with my AC?"],
+        "responses": [
+          "Set your AC to 26 degrees when you're at home and need cooling.",
+          "Use ceiling fans to help distribute cool air more effectively.",
+          "Keep blinds and curtains closed during the hottest part of the day.",
+          "Schedule regular maintenance for your AC to ensure it runs efficiently.",
+          "Use a programmable thermostat to adjust the temperature when you're not home."
+        ]
+      },
+      {
+        "tag": "water_heater_efficiency",
+        "patterns": ["How can I save power with my Water heater","Water heater tips","How can I save power with my water heater?", "Tips for efficient water heater use", "How to use water heater efficiently?"],
+        "responses": [
+          "Lower the thermostat on your water heater to 120°F (49°C) to save energy.",
+          "Insulate your water heater and hot water pipes to reduce heat loss.",
+          "Consider using a tankless water heater for on-demand hot water."
+        ]
+      },
+      {
+        "tag": "appliance_use",
+        "patterns": ["How to use appliances efficiently?", "Tips for efficient appliance use", "How can I save power with my appliances?"],
+        "responses": [
+          "Run dishwashers and washing machines with full loads to maximize efficiency.",
+          "Clean the lint filter in your dryer after each use to improve airflow.",
+          "Defrost your freezer regularly to maintain energy efficiency."
+        ]
+      },
+      {
+        "tag": "insulation_tips",
+        "patterns": ["How can I improve home insulation?", "Tips for better insulation", "Ways to insulate my home"],
+        "responses": [
+          "Seal gaps and cracks around windows and doors to prevent drafts.",
+          "Add insulation to your attic to reduce heat loss in winter and keep your home cooler in summer.",
+          "Use weatherstripping around doors to improve insulation."
+        ]
+      },
+      {
+        "tag": "renewable_energy",
+        "patterns": ["How can I use renewable energy at home?", "Tips for using renewable energy", "Ways to implement renewable energy at home"],
+        "responses": [
+          "Consider installing solar panels to generate your own electricity.",
+          "Look into wind turbines if you live in a windy area.",
+          "Use solar water heaters to reduce your reliance on traditional water heaters."
+        ]
+      },
+      {
+        "tag": "battery_storage",
+        "patterns": ["Battery","How can I store energy at home?", "Tips for home energy storage", "Ways to implement energy storage at home"],
+        "responses": [
+          "Consider installing a home battery system to store excess solar energy.",
+          "Use a portable power station for backup power during outages.",
+          "Look into energy storage incentives and rebates in your area."
+        ]
+      },
+      {
+        "tag": "smart_home_devices",
+        "patterns": ["smart home device","How can smart home devices save energy?", "Tips for using smart home devices", "Ways to implement smart home devices for energy savings"],
+        "responses": [
+          "Use smart thermostats to optimize heating and cooling schedules.",
+          "Install smart plugs to control and monitor energy usage of individual appliances.",
+          "Use smart lighting systems to automate and reduce lighting costs."
+        ]
+      },
+      {
+        "tag": "solar_panels",
+        "patterns": ["Solar Panels","How do solar panels work?", "Benefits of solar panels", "How to install solar panels?"],
+        "responses": [
+          "Solar panels convert sunlight into electricity using photovoltaic cells.",
+          "They can significantly reduce your electricity bills and carbon footprint.",
+          "Consult with a professional installer to determine the best setup for your home."
+        ]
+      },
+      {
+        "tag": "energy_audit",
+        "patterns": ["Energy audit?","What is an energy audit?", "Benefits of an energy audit", "How to get an energy audit?"],
+        "responses": [
+          "An energy audit assesses your home's energy usage and identifies ways to improve efficiency.",
+          "It can help you save money on energy bills and make your home more comfortable.",
+          "Contact a professional energy auditor to schedule an assessment."
+        ]
+      },{
+        "tag": "Power_Saving_Tips",
+        "patterns": [
+            "Tell me a power saving tip",
+            "Give me a power saving tip",
+            "How can I save power",
+            "Advice on power saving",
+            "Tip to save electricity",
+            "Energy saving advice",
+            "Power saving suggestion",
+            "How can I reduce my energy bill"
+        ],
+        "responses": [
+            "Turn off lights when not in use.",
+            "Use energy-efficient light bulbs.",
+            "Unplug appliances when not in use to prevent phantom loads.",
+            "Use a programmable thermostat to reduce heating and cooling costs.",
+            "Wash clothes in cold water.",
+            "Hang clothes to dry instead of using a dryer.",
+            "Use energy-efficient appliances.",
+            "Seal windows and doors to prevent drafts.",
+            "Use a ceiling fan to help circulate air.",
+            "Keep your HVAC system well-maintained.",
+            "Use a smart power strip to reduce energy consumption.",
+            "Set your water heater to 120°F (49°C).",
+            "Take shorter showers to reduce water heating costs.",
+            "Insulate your home properly.",
+            "Use natural light during the day.",
+            "Turn off the oven a few minutes before the end of cooking to use residual heat.",
+            "Install solar panels to generate your own electricity.",
+            "Use motion sensors for outdoor lighting.",
+            "Choose energy-efficient windows.",
+            "Use heavy curtains to reduce heat loss in winter.",
+            "Install a programmable timer for your water heater.",
+            "Use power-saving modes on electronic devices.",
+            "Plant trees for natural shading.",
+            "Use low-flow showerheads.",
+            "Upgrade to a high-efficiency furnace.",
+            "Use area rugs to help insulate floors.",
+            "Avoid using space heaters.",
+            "Use a microwave or toaster oven for small meals.",
+            "Close vents in unused rooms.",
+            "Use rechargeable batteries.",
+            "Turn off the computer monitor when not in use.",
+            "Reduce the brightness on your TV.",
+            "Cook with lids on pots.",
+            "Use a pressure cooker to save energy.",
+            "Thaw frozen food in the refrigerator.",
+            "Use task lighting instead of overhead lighting.",
+            "Choose energy-efficient doors.",
+            "Install a chimney balloon to prevent drafts.",
+            "Use a clothesline in warm weather.",
+            "Upgrade to an energy-efficient refrigerator.",
+            "Keep the refrigerator coils clean.",
+            "Defrost the freezer regularly.",
+            "Use LED holiday lights.",
+            "Close the fireplace damper when not in use.",
+            "Install energy-efficient skylights.",
+            "Use outdoor solar lights.",
+            "Use a pool cover to reduce heating costs.",
+            "Run the dishwasher only when full.",
+            "Use eco-friendly dishwashing detergent.",
+            "Avoid over-drying clothes.",
+            "Use a laptop instead of a desktop computer.",
+            "Enable sleep mode on your computer.",
+            "Use window film to reduce heat gain.",
+            "Seal leaks in ductwork.",
+            "Add insulation to the attic.",
+            "Use blackout curtains.",
+            "Install a wind turbine if you live in a windy area.",
+            "Use task lighting instead of overhead lighting to reduce energy use.",
+            "Choose light paint colors for walls to reflect more light.",
+            "Install a heat pump.",
+            "Use a smart thermostat.",
+            "Use weatherstripping to seal gaps around doors and windows.",
+            "Consider double-glazed windows for better insulation.",
+            "Install a skylight.",
+            "Use a pool cover to reduce heat loss.",
+            "Choose energy-efficient windows with low-emissivity (Low-E) coatings.",
+            "Use a smart power outlet to remotely control appliances.",
+            "Install solar outdoor lights.",
+            "Use heat-reflective roof tiles.",
+            "Install energy-efficient doors.",
+            "Use a solar water heater.",
+            "Plant deciduous trees for shade in summer.",
+            "Use energy-efficient pool pumps.",
+            "Switch to low-energy LED Christmas lights.",
+            "Use an electric blanket.",
+            "Consider using a clothesline or drying rack instead of a dryer.",
+            "Turn off the oven a few minutes before the end of cooking.",
+            "Use heavy curtains or thermal blinds.",
+            "Clean your oven's self-cleaning feature right after baking.",
+            "Use a pressure cooker.",
+            "Set your fridge temperature to 37-40°F.",
+            "Use ceiling fans to circulate air.",
+            "Place heat-generating appliances away from your thermostat.",
+            "Regularly clean the condenser coils of your refrigerator.",
+            "Reduce heat loss from your fireplace by keeping the damper closed.",
+            "Use an electric blanket instead of heating your entire home.",
+            "Consider using a clothesline or drying rack instead of a dryer."
+        ]
+    },
+      {
+        "tag": "electric_vehicle",
+        "patterns": ["EV","EV benefits","Benefits of electric vehicles", "How to charge an electric vehicle?", "Are electric vehicles efficient?"],
+        "responses": [
+          "Electric vehicles produce zero emissions and can save you money on fuel costs.",
+          "They can be charged at home using a standard outlet or a dedicated charging station.",
+          "EVs are typically more efficient than gasoline vehicles and have lower maintenance costs."
+        ]
+      },
+      {
+        "tag": "peak_demand",
+        "patterns": ["peak demand??","What is peak demand?", "How to reduce peak demand?", "Benefits of reducing peak demand"],
+        "responses": [
+          "Peak demand refers to times when energy consumption is at its highest.",
+          "Reducing peak demand can lower your energy bills and help prevent blackouts.",
+          "Use appliances during off-peak hours and spread out your energy usage throughout the day."
+        ]
+      },
+      {
+        "tag": "energy_efficient_lighting",
+        "patterns": ["Benefits of LED bulbs", "How to choose energy-efficient lighting?", "Are LED bulbs better?"],
+        "responses": [
+          "LED bulbs use up to 80% less energy than traditional incandescent bulbs.",
+          "They have a longer lifespan, reducing the need for frequent replacements.",
+          "Look for bulbs with the ENERGY STAR label for the best efficiency."
+        ]
+      },
+      {
+        "tag": "smart_thermostat",
+        "patterns": ["Benefits of smart thermostats", "How to install a smart thermostat?", "Are smart thermostats worth it?"],
+        "responses": [
+          "Smart thermostats can learn your schedule and adjust temperatures automatically.",
+          "They can help you save on heating and cooling costs by optimizing energy usage.",
+          "Installation is typically straightforward, but professional installation is available if needed."
+        ]
+      },
+      {
+        "tag": "home_insulation",
+        "patterns": ["How to insulate my home?", "Benefits of home insulation", "Best insulation materials?"],
+        "responses": [
+          "Proper insulation can reduce energy bills and improve comfort.",
+          "Common insulation materials include fiberglass, cellulose, and spray foam.",
+          "Consult with a professional to determine the best insulation solution for your home."
+        ]
+      },
+      {
+        "tag": "weatherstripping",
+        "patterns": ["What is weatherstripping?", "Benefits of weatherstripping", "How to install weatherstripping?"],
+        "responses": [
+          "Weatherstripping helps seal gaps around doors and windows to prevent drafts.",
+          "It can improve your home's energy efficiency and comfort.",
+          "Installation is simple and can be done with adhesive-backed strips or other materials."
+        ]
+      }
+    ]
+  }
+  
